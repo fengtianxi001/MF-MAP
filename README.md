@@ -1,33 +1,30 @@
-# 🚀MF-Map
+# ⛰ MF-MAP
 
-> 一个零依赖，纯手撕的Web的交互式地图的简单案例。
-
-## 效果预览
-
-![效果预览](https://raw.githubusercontent.com/fengtianxi001/MF-Map/master/screenshot/index.png)
+> 一个零依赖，纯手写的Web交互式地图的简单案例。 服务地址: https://fengtianxi001.github.io/MF-MAP/
 
 ## 项目简介
 
-在项目中你会学到
+在项目中需要应用的知识点:
 
-- `EPSG:4326坐标系`与 `EPSG:3857坐标系`的转换
+- [x] `EPSG:4326`与 `EPSG:3857`的坐标系的转换
+  
+- [x] 地图瓦片数量与缩放层级的数量关系
+  
+- [x] 缩放层级和分辨率的数量关系
+  
+- [x] 分辨率与实际距离数量关系
+  
+- [x] 通过经纬度计算瓦片地图的行列号
+  
+- [x] 地图瓦片原点和`EPSG:3857`坐标系原点的差异
+  
+- [x] 通过行列号将地图瓦片渲染到canvas的画布中
+  
+- [x] 主要地图交互的实现(拖动与缩放)
+  
 
-- 地图瓦片数量与缩放层级、缩放层级和分辨率、分辨率与实际距离等的关系
+##
 
-- 通过经纬度定行列号，地图瓦片原点和坐标系原点的差异
+## 项目截图
 
-- 通过编号将地图瓦片渲染到canvas中的特定位置
-
-- ...
-
-## 项目启动
-
-```shell
-npm install & npm run dev
-```
-
-
-
-## 在线预览地址
-
-[preview](https://fengtianxi001.github.io/MF-Map/)
+![](https://raw.githubusercontent.com/fengtianxi001/MF-Map/master/screenshot/index.png)
